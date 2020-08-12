@@ -1,0 +1,26 @@
+main: net.devras.pit.Game
+name: ThePit
+description: The Simple Pit
+version: 4.1.6
+author: [kemasama, kemq_, atamage, ke1t_, Furutti, keisuke_0229]
+website: https://play.devras.info
+softdepend: [Multiverse-Core, HolographicDisplays, LuckPerms]
+
+commands:
+  pit:
+    permission: pit.admin
+    permission-message: You don't have a permission
+    usage: /pit
+  spawn:
+    permission: pit.usage
+  chest:
+    permission: pit.usage
+
+permissions:
+  pit.usage:
+    default: true
+  pit.admin:
+    default: op
+  pit.nametag:
+    default: false
+

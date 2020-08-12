@@ -1,0 +1,12 @@
+killCame: false
+mysql:
+  host: localhost
+  port: 3306
+  name: mc_tdm
+  user: root
+  pass: 1234
+
+lobby:
+
+
+
